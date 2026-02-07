@@ -5,7 +5,15 @@
   <title>MHK Klasshandboll 2026</title>
 
   <script>
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
+    async function refreshs(){
+    await sleep(5000);
+      location.reload();
+    }
+    
   </script>
 
   <style>
