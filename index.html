@@ -10,7 +10,11 @@ function sleep(ms) {
 }
 
     async function refreshs(){
+      
+      console.log("twst");
     await sleep(5000);
+      
+      console.log("twst2");
       location.reload();
     }
     
@@ -102,7 +106,7 @@ function sleep(ms) {
   </style>
 </head>
 
-<body>
+<body onload="refreshs()">
   <h1> MHK Klasshandboll, resultat för åk 5 & åk 6</h1>
   <table id="website">
     <tr id="rowfemman">
